@@ -13,7 +13,7 @@ function App() {
       <div>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/VDreams-ProdBuild/our-story" element={<OurStoryPage />} />
+          <Route path="/our-story" element={<OurStoryPage />} />
           <Route path="/products" element={<ProductsPage />} />
           <Route path="/updates-reports" element={<UpdatesReportsPage />} /> 
           <Route path="/contact-us" element={<ContactUsPage />} />
