@@ -3,6 +3,7 @@ import Footer from "../../components/footer"
 import MainSection from "../../components/home-page-main-section"
 import "../../styles/home-page.css"
 import Tagline from "../../components/Tagline"
+import roadmap from "../../assets/Roadmap.png"
 function HomePage() {
 
   return (
@@ -19,7 +20,7 @@ function HomePage() {
             <h2>Next Roadmap: Tools Beta Launch</h2>
             <div className="roadmap-image-container">
             <img
-              src="./src/assets/Roadmap.png" // Replace with your actual image path
+              src={roadmap} // Replace with your actual image path
               alt="Roadmap Image"
               className="roadmap-image"
             />
