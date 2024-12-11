@@ -8,7 +8,7 @@ import ContactUsPage from './pages/website-pages/contact-us-page';
 
 function App() {
   return (
-    <Router>
+    <Router basename='"/VDreams-prodbuild/'>
       <div>
         <Routes>
           <Route path="/" element={<HomePage />} />
