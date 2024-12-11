@@ -7,9 +7,9 @@ function MainSection() {
         <>
         <main >
             <h2>Welcome to VDream Journey!</h2>
-            <div>
+            {/* <div> */}
                 <VisionMissionCard></VisionMissionCard>
-            </div>
+            {/* </div> */}
             
             
         

@@ -75,7 +75,7 @@ function AppDetailCardSection() {
 
     const resourceData = [
         // Business Plan creator
-        { id: 25, title: "resources-handbook", description: "Handy Cheatsheet for upskilling, reskilling and building yourself." }
+        { id: 25, title: "Resources-handbook", description: "Handy Cheatsheet for upskilling, reskilling and building yourself." }
     ];
     
     
