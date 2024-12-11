@@ -8,11 +8,12 @@ import ContactUsPage from './pages/website-pages/contact-us-page';
 
 function App() {
   return (
-    <Router basename='/VDreams-prodbuild/'>
+
+    <Router basename='/VDreams-ProdBuild/'>
       <div>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/our-story" element={<OurStoryPage />} />
+          <Route path="/VDreams-ProdBuild/our-story" element={<OurStoryPage />} />
           <Route path="/products" element={<ProductsPage />} />
           <Route path="/updates-reports" element={<UpdatesReportsPage />} /> 
           <Route path="/contact-us" element={<ContactUsPage />} />
