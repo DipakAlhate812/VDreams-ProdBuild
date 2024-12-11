@@ -23,7 +23,7 @@ const SocialMediaLinks = () => {
         rel="noopener noreferrer"
         className="social-icon"
       >
-        Follow us on Instagram for regular updates <FaInstagram />
+        Follow us on Instagram for updates <FaInstagram />
       </a>
 
       <a

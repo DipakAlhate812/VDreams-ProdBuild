@@ -8,11 +8,11 @@ function Header() {
             {/* <img src="../src/assets/Web Poster.png" alt="Website Logo" /> */}
         <nav>
           <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/our-story">Our Story</Link></li>
-            <li><Link to="/products">Products</Link></li>
-            <li><Link to="/updates-reports">Updates & Reports</Link></li>
-            <li><Link to="/contact-us">Contact Us</Link></li>
+            <li><a href="/VDreams-ProdBuild/">Home</a></li>
+            <li><a href="/VDreams-ProdBuild/our-story">Our Story</a></li>
+            <li><a href="/VDreams-ProdBuild/products">Products</a></li>
+            <li><a href="/VDreams-ProdBuild/updates-reports">Updates & Reports</a></li>
+            <li><a href="/VDreams-ProdBuild/contact-us">Contact Us</a></li>
           </ul>
         </nav>
     </header>

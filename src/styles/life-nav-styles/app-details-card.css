@@ -6,12 +6,15 @@
   gap: 25px; /* Add spacing between the cards */
   padding: 15px;
   align-items:center;
+  margin-left: 150px;
+  margin-right: 150px;
+
 }
 
 .card {
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(202, 200, 200, 0.966);
-  width: 50%; /* Default width for smaller screens */
+  width: 300px; /* Default width for smaller screens */
   height: 150px;
   display: flex;
   background: linear-gradient(135deg, #0f0f0f, #2e2e2e);

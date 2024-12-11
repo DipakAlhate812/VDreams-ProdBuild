@@ -3,5 +3,49 @@
     padding: 0px;
     min-height: 100vh;
     background: linear-gradient(360deg, #1b1b1b, #1b1b1b); /* Black gradient background */
-    
+    align-items: center;
+    justify-content: center;
+}
+
+.main-contact-page a {
+    /* background: linear-gradient(45deg, #ff6b6b, #f06595); */
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.main-contact-page button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: bold; /* Added for better emphasis */
+    background: linear-gradient(45deg, #ff6b6b, #f06595);
+    padding: 14px 28px; /* Slightly increased padding */
+    border: none; /* Remove any default browser borders */
+    border-radius: 10px; /* Adjusted for smoother corners */
+    margin: 20px;
+    cursor: pointer; /* Pointer cursor for interactivity */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.2s ease, background 0.3s ease, box-shadow 0.3s ease;
+    width: 20%;
+}
+
+.main-contact-page button:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+    background: linear-gradient(45deg, #4facfe, #00f2fe); /* Change background gradient */
+    color: #ffffff; /* Keep text white for better readability */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.main-contact-page button:active {
+    transform: scale(1); /* Remove scale effect on click */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduce shadow on click */
+    background: linear-gradient(45deg, #0078d7, #00a2f5); /* Slightly darker gradient */
 }

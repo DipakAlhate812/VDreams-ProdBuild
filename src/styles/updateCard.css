@@ -5,8 +5,11 @@
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 15px;
-  width: 600px;
+  width: 100%; /* Makes the card responsive */
+  max-width: 600px; /* Sets a maximum width */
   text-align: left; /* Align text to left */
+  flex-wrap: wrap;
+  box-sizing: border-box; /* Ensures padding is included in width calculation */
 }
 
 .update-card-title {
@@ -14,6 +17,7 @@
   color: #ffffff;
   margin-bottom: 20px;
   text-align: left; /* Align title text to left */
+  word-wrap: break-word; /* Ensures title wraps based on width */
 }
 
 .update-card-list {
@@ -27,7 +31,8 @@
 }
 
 .update-card-summary {
-  width: 550px;
+  width: 100%; /* Makes the summary fill the container */
+  max-width: 550px; /* Sets a maximum width */
   background-color: rgba(226, 223, 223, 0); /* Initial background color */
   color: #333; /* Text color for summary */
   padding: 10px;
@@ -35,6 +40,8 @@
   cursor: pointer;
   font-size: 18px;
   text-align: left; /* Align text inside summary to left */
+  word-wrap: break-word; /* Ensures summary text wraps */
+  word-break: break-word; /* Handles long words */
 }
 
 .update-card-summary:hover {
@@ -55,4 +62,21 @@
   text-align: left; /* Align paragraph text to left */
   border: 3px double #ffdc41; /* Double border */
   border-radius: 8px;
+  word-wrap: break-word; /* Ensures text wraps within paragraphs */
+  word-break: break-word; /* Handles long words in paragraph */
+}
+
+@media (max-width: 768px) {
+  .update-card {
+    width: 100%; /* Adjust width for smaller screens */
+    margin: 10px; /* Reduce margin for small screens */
+  }
+
+  .update-card-title {
+    font-size: 20px; /* Slightly smaller font size for small screens */
+  }
+
+  .update-card-summary {
+    font-size: 16px; /* Adjust font size for better readability on small screens */
+  }
 }
