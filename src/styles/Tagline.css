@@ -1,0 +1,23 @@
+/* Tagline.css */
+.tagline-container {
+    background: linear-gradient(45deg, #111, #333);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .tagline-container h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0;
+    text-transform: none;
+  }
+  
+  .tagline-container:hover {
+    background: linear-gradient(45deg, #56f77e, #222);
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  

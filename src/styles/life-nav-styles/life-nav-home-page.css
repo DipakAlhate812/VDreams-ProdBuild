@@ -1,0 +1,31 @@
+/* Full-screen div */
+.full-screen-homepage-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow cards to wrap to the next line when there is no space */
+  justify-content: center;
+  align-items: top;
+  min-height: 100vh; /* Full viewport height */
+  background: linear-gradient(135deg, #423f3f, #0c0303); /* Gradient from dark gray to black */
+  color: white; /* Light text */
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+  
+.full-screen-homepage-container h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.full-screen-homepage-container p {
+  font-size: 1.5rem;
+}
+
+.home-page {
+  min-height: auto;
+}
+
+.app-detail-card-section {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}

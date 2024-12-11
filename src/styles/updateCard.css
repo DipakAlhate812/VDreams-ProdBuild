@@ -1,0 +1,58 @@
+.update-card {
+  padding: 20px;
+  background-color: #f9f9f900;
+  border: 6px double #828385; /* Double border */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 15px;
+  width: 600px;
+  text-align: left; /* Align text to left */
+}
+
+.update-card-title {
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  text-align: left; /* Align title text to left */
+}
+
+.update-card-list {
+  list-style: none;
+  padding: 0;
+  text-align: left; /* Align list text to left */
+}
+
+.update-card-item {
+  margin-bottom: 10px;
+}
+
+.update-card-summary {
+  width: 550px;
+  background-color: rgba(226, 223, 223, 0); /* Initial background color */
+  color: #333; /* Text color for summary */
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+  text-align: left; /* Align text inside summary to left */
+}
+
+.update-card-summary:hover {
+  background-color: #ff0000; /* Hover color */
+  color: #e9e9e9; /* Change text color on hover */
+}
+
+.update-card-item[open] .update-card-summary {
+  background-color: #af6464; /* Background color when open */
+  color: #fff; /* Text color when open */
+}
+
+.update-card-item p {
+  padding: 10px;
+  background-color: #0c0c0c00;
+  border-radius: 6px;
+  margin-top: 8px;
+  text-align: left; /* Align paragraph text to left */
+  border: 3px double #ffdc41; /* Double border */
+  border-radius: 8px;
+}

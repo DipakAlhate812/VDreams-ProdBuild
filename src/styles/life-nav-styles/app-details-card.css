@@ -1,0 +1,70 @@
+/* Home Page Styles */
+.card-container {
+  display: flex; /* Arrange items horizontally */
+  flex-wrap: wrap; /* Allow cards to wrap to the next line when there is no space */
+  justify-content: center; /* Distribute space evenly around the cards */
+  gap: 25px; /* Add spacing between the cards */
+  padding: 15px;
+  align-items:center;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(202, 200, 200, 0.966);
+  width: 50%; /* Default width for smaller screens */
+  height: 150px;
+  display: flex;
+  background: linear-gradient(135deg, #0f0f0f, #2e2e2e);
+  align-content: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+
+}
+
+.card-description {
+  color: #666;
+  font-size: x-small;
+
+}
+
+
+.button-card {
+  background-color: #0f0f0f00;
+  border: #0f0f0f00;
+}
+
+/* Media Query for Tablet Screens (768px and below) */
+@media (max-width: 768px) {
+  .card-container {
+    justify-content: center; /* Center the cards on tablets */
+  }
+
+  .card {
+    width: 100%; /* Full width on tablet screens */
+    max-width: 250px; /* Adjust max width for smaller screens */
+  }
+}
+
+/* Media Query for Mobile Screens (480px and below) */
+@media (max-width: 480px) {
+  .card-container {
+    justify-content: center; /* Center the cards on mobile */
+  }
+
+  .card {
+    width: 100%; /* Full width on mobile screens */
+    max-width: 200px; /* Adjust max width for mobile */
+  }
+}
+
+

@@ -1,0 +1,61 @@
+details {
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+  }
+
+summary {
+font-weight: bold;
+cursor: pointer;
+list-style: none; /* Remove default arrow */
+display: inline-block; /* Allow padding and border */
+padding: 3px 20px; /* Add space inside */
+Width: 400px;
+border: 2px solid #73abe6; /* Blue border */
+border-radius: 5px; /* Rounded corners */
+background: linear-gradient(135deg, #007BFF, #80aad6); /* Gradient background */
+color: white; /* White text */
+text-align: center; /* Center the text */
+transition: background 0.3s, transform 0.2s; /* Smooth hover animation */
+}
+
+summary::-webkit-details-marker {
+display: none; /* Remove the arrow in Chrome, Edge, Safari */
+}
+
+summary:hover {
+background: linear-gradient(135deg, #696b6d, #010b14); /* Darker gradient on hover */
+transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.summary-blue {
+background: linear-gradient(135deg, #007BFF, #80aad6); /* Blue gradient */
+}
+
+.summary-green {
+background: linear-gradient(135deg, #28a745, #8bde95); /* Green gradient */
+}
+
+.summary-purple {
+background: linear-gradient(135deg, #6f42c1, #b290e4); /* Purple gradient */
+}
+
+.summary-orange {
+background: linear-gradient(135deg, #fd7e14, #ffbb66); /* Orange gradient */
+}
+
+.summary-red {
+background: linear-gradient(135deg, #dc3545, #f596a7); /* Red gradient */
+}
+
+.summary-yellow {
+    background: linear-gradient(135deg, #ffc107, #ffe78e); /* Yellow gradient */
+  }
+  
+.summary-teal {
+background: linear-gradient(135deg, #20c997, #90e3c3); /* Teal gradient */
+}
+
+.summary-pink-purple {
+    background: linear-gradient(135deg, #ff4da6, #d91cff); /* Pink to Purple gradient */
+    scroll-behavior: smooth;
+}

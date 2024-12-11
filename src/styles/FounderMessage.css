@@ -1,0 +1,91 @@
+.founder-message-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  margin: 30px auto;
+  border: thick double #32a1ce;
+}
+
+.founder-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.founder-photo img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.message-content {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: left;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.message-content h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #32a1ce;
+  margin-bottom: 15px;
+}
+
+.message-content h4 {
+  font-size: 1.6rem;
+  color: #32a1ce;
+  margin-top: 15px;
+}
+
+.message-content p {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.message-content ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.message-content ul li {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.message-content a {
+  color: #32a1ce;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.message-content a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .founder-message-container {
+    padding: 15px;
+  }
+
+  .message-content {
+    font-size: 1rem;
+  }
+
+  .founder-photo img {
+    width: 150px;
+    height: 150px;
+  }
+}

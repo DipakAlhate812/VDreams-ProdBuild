@@ -1,0 +1,40 @@
+/* social-media-links.css */
+
+body {
+  background-color: #121212; /* Dark background for contrast */
+  font-family: Arial, sans-serif; /* Clean font style */
+  color: #ffffff; /* White text for readability */
+}
+
+.social-media-links {
+  display: flex;
+  flex-direction: column; /* Stack links vertically */
+  align-items: center;
+  gap: 20px; /* Space between items */
+  margin-top: 20px;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none; /* Remove default link styling */
+  color: #ffffff; /* Default icon color */
+  font-size: 1.2rem; /* Icon and text size */
+  width: 400px;
+  background: linear-gradient(45deg, #ff6b6b, #f06595); /* Gradient background */
+  padding: 12px 24px; /* Add spacing around the text */
+  border-radius: 8px; /* Rounded corners */
+  transition: transform 0.2s ease,  0.3s ease; /* Smooth hover effects */
+}
+
+.social-icon:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+  background: linear-gradient(45deg, #4facfe, #00f2fe); /* Change background on hover */
+  color: #000000; /* Dark text color on hover */
+}
+
+.social-icon svg {
+  margin-left: 10px; /* Space between text and icon */
+  font-size: 1.5rem; /* Slightly larger icon size */
+}

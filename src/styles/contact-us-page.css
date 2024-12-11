@@ -1,0 +1,7 @@
+.main-contact-page{
+    margin-top: 10px; /* To give space for the fixed header */
+    padding: 0px;
+    min-height: 100vh;
+    background: linear-gradient(360deg, #1b1b1b, #1b1b1b); /* Black gradient background */
+    
+}

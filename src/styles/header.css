@@ -1,0 +1,62 @@
+/* Header styles */
+.header {
+  display: flex; /* Enable Flexbox */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Align items vertically in the center */
+  color: rgb(221, 170, 170);
+  background-color: rgb(47, 47, 49);
+  padding: 15px; /* Adjust padding */
+  width: 100vw;
+
+}
+
+  
+  .header h1 {
+    margin: 0; /* Remove default margin */
+  }
+  
+  .header nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0;
+    display: flex; /* Arrange the list items in a row */
+    gap: 0px;
+  }
+  
+  .header nav ul li {
+    margin: 0 10px; /* Space between the items */
+  }
+  
+  .header nav ul li a {
+    color: rgb(236, 124, 124);
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.header nav ul li a:hover {
+    color: rgb(255, 200, 200); /* Lighter font color on hover */
+}
+  
+
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column; /* Stack header items vertically on smaller screens */
+      align-items: flex-start; /* Align items to the left */
+    }
+  
+    .header nav ul {
+      flex-direction: column; /* Stack the navigation links vertically */
+      width: 100%;
+      text-align: left; /* Align text to the left */
+    }
+  
+    .header nav ul li {
+      margin: 10px 0; /* Add vertical spacing between nav items */
+    }
+  }
+  

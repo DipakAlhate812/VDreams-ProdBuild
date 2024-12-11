@@ -1,0 +1,11 @@
+.main-story-page {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    min-height: 40vw;
+    background-color: #111;
+    padding: 5px;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }

@@ -1,0 +1,113 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+   /* Body */
+  .App {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #000000, #333333);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+  } 
+  
+  /* Header */
+  .header-home-page {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    padding: 5px;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Main Section */
+  .main-home-page {
+    margin-top: 0px; /* To give space for the fixed header */
+    /* flex: 1; */
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    padding: 0px;
+    min-height: 100vh;
+    animation: fadeIn 1s ease-out;
+    background: linear-gradient(360deg, #1b1b1b, #1b1b1b); /* Black gradient background */
+    /* min-width: 100vw; */
+  }
+  
+  
+  /* Footer */
+  .footer-home-page {
+    background-color: #111;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+    min-width: 100vw;
+  }
+  
+/* Main Section for Image */
+.roadmap-image-container {
+  text-align: center;
+  margin: 20px 0;
+
+}
+
+.roadmap-image-container .h2 {
+  text-align: center;
+  margin: 20px;
+  color: rgb(255, 255, 255);
+
+}
+
+.roadmap-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* Adds rounded corners to the image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow around the image */
+  border: 5px solid antiquewhite; /* Adds a solid border with antiquewhite color */
+}
+
+
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .roadmap-image {
+    max-width: 90%;
+  }
+}
+
+  
+  /* Keyframe animation for main section */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .main-home-page {
+      padding: 10px;
+      justify-content: flex-start;
+    }
+  
+    .footer-home-page {
+      padding: 15px;
+    }
+  
+    .header-home-page {
+      padding: 15px;
+    }
+  }
+  
