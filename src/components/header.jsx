@@ -9,10 +9,10 @@ function Header() {
         <nav>
           <ul>
             <li><Link to="/VDreams-ProdBuild/">Home</Link></li>
-            <li><Link to="/VDreams-ProdBuild/our-story">Our Story</Link></li>
-            <li><Link to="/VDreams-ProdBuild/products">Products</Link></li>
-            <li><Link to="/VDreams-ProdBuild/updates-reports">Updates & Reports</Link></li>
-            <li><Link to="/VDreams-ProdBuild/contact-us">Contact Us</Link></li>
+            <li><Link to="/VDreams-ProdBuild/our-story/">Our Story</Link></li>
+            <li><Link to="/VDreams-ProdBuild/products/">Products</Link></li>
+            <li><Link to="/VDreams-ProdBuild/updates-reports/">Updates & Reports</Link></li>
+            <li><Link to="/VDreams-ProdBuild/contact-us/">Contact Us</Link></li>
           </ul>
         </nav>
     </header>
