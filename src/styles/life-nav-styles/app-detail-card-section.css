@@ -59,3 +59,17 @@ background: linear-gradient(135deg, #20c997, #90e3c3); /* Teal gradient */
     background: linear-gradient(135deg, #ff4da6, #d91cff); /* Pink to Purple gradient */
     scroll-behavior: smooth;
 }
+
+@media (max-width: 768px) {
+  .summary  {
+    width: fit-content
+  }
+
+}
+
+@media (max-width: 480px) {
+.summary  {
+  width: fit-content
+}
+
+}
