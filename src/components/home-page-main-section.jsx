@@ -6,7 +6,7 @@ function MainSection() {
     return (
         <>
         <main >
-            <h2>Welcome to VDream Journey!</h2>
+            <h2>Welcome to VDreams Journey!</h2>
             {/* <div> */}
                 <VisionMissionCard></VisionMissionCard>
             {/* </div> */}

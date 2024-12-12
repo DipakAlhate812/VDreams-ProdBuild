@@ -17,8 +17,15 @@ function ContactUsPage() {
         <div className="main-contact-page">
             {/* <ContactUs></ContactUs> */}
             <h2>Contribute to new journey!</h2>
-            <a><button>Feedback Form</button></a>
-            <a><button>Get Notifications for updates</button></a>
+            <a href="https://forms.gle/KmDozTLwPvQT8w8p7" target="_blank" rel="noopener noreferrer">
+              <button>Subscribe for updates</button>
+            </a>
+            <a href="https://forms.gle/wMskQoXJh5aruRNXA" target="_blank" rel="noopener noreferrer">
+              <button>Un-Subscribe for updates</button>
+            </a>
+            <a href="https://forms.gle/fAJRdDMjTYA2riWK7" target="_blank" rel="noopener noreferrer">
+              <button>Contribute in User Survey Form</button>
+            </a>
             <SocialMediaLinks></SocialMediaLinks>
         </div>
         <div className="footer-home-page">

@@ -13,9 +13,9 @@
 .card {
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(202, 200, 200, 0.966);
-  width: 100%; /* Make card width responsive */
-  max-width: 300px; /* Set a maximum width for the card */
-  height: auto; /* Adjust the height based on content */
+  min-width: 300px !important; 
+  max-height: 105px !important;  
+  width: 250px !important;
   display: flex;
   background: linear-gradient(135deg, #0f0f0f, #2e2e2e);
   align-items: center;
@@ -24,7 +24,7 @@
   padding: 15px; /* Add padding inside the card */
   box-sizing: border-box; /* Ensure padding doesn't affect card width */
   text-align: center; /* Center the text inside the card */
-  word-wrap: break-word; /* Wrap long words */
+   
 }
 
 .card-content {
@@ -35,13 +35,13 @@
   font-size: 1.2rem;
   margin-bottom: 10px;
   color: #ffffff;
-  word-wrap: break-word; /* Ensure title text wraps if it's too long */
+  text-wrap: wrap; 
 }
 
 .card-description {
   color: #666;
   font-size: 0.9rem; /* Adjust font size for better readability */
-  word-wrap: break-word; /* Ensure description text wraps properly */
+  text-wrap: wrap; /* Ensure description text wraps properly */
   line-height: 1.4;
 }
 
@@ -59,8 +59,8 @@
   }
 
   .card {
-    width: 100%; /* Full width on tablet screens */
-    max-width: 250px; /* Adjust max width for smaller screens */
+    width: 100%; 
+    min-width: 300px !important; 
   }
 
   .card-title {

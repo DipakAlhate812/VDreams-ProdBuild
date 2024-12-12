@@ -17,7 +17,7 @@ function HomePage() {
             <MainSection></MainSection>
             
             {/* <UpdateCard> </UpdateCard> */}
-            <h2>Next Roadmap: Tools Beta Launch</h2>
+            <h2>Next Roadmap: Tools MVP Launch</h2>
             <div className="roadmap-image-container">
             <img
               src={roadmap} // Replace with your actual image path

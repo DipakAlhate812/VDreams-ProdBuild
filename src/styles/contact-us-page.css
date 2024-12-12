@@ -30,7 +30,7 @@
     padding: 14px 28px; /* Slightly increased padding */
     border: none; /* Remove any default browser borders */
     border-radius: 10px; /* Adjusted for smoother corners */
-    margin: 20px;
+    margin: 10px;
     cursor: pointer; /* Pointer cursor for interactivity */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     transition: transform 0.2s ease, background 0.3s ease, box-shadow 0.3s ease;
