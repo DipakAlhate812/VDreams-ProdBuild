@@ -11,6 +11,7 @@ function FounderMessage() {
         <h1 style={{textAlign:"center", marginBottom:"10px"}}>Our Story</h1>
 
         <p>I am Dipak Bapu Alhate (<a href='https://www.linkedin.com/in/dipak-alhate-309147136' target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>), a 28-year-old Mechanical Engineer by education and Software Developer by profession and solopreneur by current working status who left job to focus on own startup journey. As an ambitious individual, I've always dreamed of achieving big things and making a significant impact. It is often said that a person’s capabilities are judged by what they accomplish and what they chose to achieve in life. With that in mind, I’ve chosen a challenging and impactful problem to solve—one that can address several pressing societal issues.</p>
+        
         <p>I am committed to transforming the way our education system works. There are numerous flaws and opportunities for improvement within the current system. Here are a few major challenges that need to be addressed:</p>
 
         <h4>Affordability of Quality Education:</h4>

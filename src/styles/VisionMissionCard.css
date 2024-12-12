@@ -52,5 +52,6 @@
   }
   .card-vision {
     width: 90%; /* Adjust card width for smaller screens */
+    width: fit-content !important;
   }
 }
