@@ -15,7 +15,7 @@ function LifeNav() {
             textAlign: "center", 
             margin: "0px 0", 
             lineHeight: "1.5",
-            width:"fit-content"
+            
         }}>These tools are only placeholder which will be released every 15 days for next 6 months.</p>
         <AppDetailCardSection></AppDetailCardSection>
     </div>

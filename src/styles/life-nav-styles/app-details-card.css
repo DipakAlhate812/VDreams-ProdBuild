@@ -61,7 +61,7 @@
 
   .card {
     width: fit-content; 
-    min-width: fit-content !important; 
+    /* min-width: fit-content !important;  */
   }
 
   .card-title {
@@ -83,8 +83,8 @@
   }
 
   .card {
-    width: fit-content; /* Full width on mobile screens */
-    max-width: fit-content; /* Adjust max width for mobile */
+    width: 300px; /* Full width on mobile screens */
+    /* max-width: fit-content; Adjust max width for mobile */
   }
 
   .card-title {

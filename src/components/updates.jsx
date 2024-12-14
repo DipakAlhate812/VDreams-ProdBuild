@@ -11,7 +11,8 @@ function UpdateCard() {
           <p>Update 1: Website Pre-launch for MVP testing and communication!</p>
           <p>Update 2: Digital Product Development started. One tool will be released every 14 days.</p>
           <p>Update 3: Beta testing with user and feedback collection to be started along with every product release.</p>
-          <p>Update 4: Register yourself for updates and early customer benefits.</p>
+          <p>Update 4: Register yourself for updates and early customer benefits on contact us page. (Subscribe for regular updates and fill the survey to grab early user benefits.).</p>
+          <p>Update 5: Next updates on 31st Dec 2024.</p>
         </details>
       </div>
     </div>
