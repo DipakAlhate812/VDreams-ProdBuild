@@ -7,7 +7,7 @@ function UpdateCard() {
       <h2 className="update-card-title">Latest Updates</h2>
       <div className="update-card-list">
         <details className="update-card-item">
-          <summary className="update-card-summary">31 Dec 2024: Pre-Launch!</summary>
+          <summary className="update-card-summary">31 Dec 2024: Coming very soon!</summary>
           <p>Update 1: Tools coming live on 16th Jan 2025!</p>
           <p>Update 2: Four tools to be published on 16th Jan 2025- To Do List, Daily Planner, Bucket List, Habit Tracker!</p>          
         </details>
